@@ -1,0 +1,44 @@
+:root {
+  --header-footer: #fda8df;
+  --small-header-colour: #783a77;
+  --third-colour: #008080;
+  --text-colour: #fdfafa;
+}
+.container {
+  max-width: 960px;
+  border: 1px solid var(--third-colour);
+  padding: 0;
+  letter-spacing: 0.1rem;
+  color: var(--text-colour);
+}
+.content-box {
+  border-radius: 20px;
+  margin: 10px;
+  padding: 15px 25px;
+}
+header,
+footer {
+  background-color: var(--header-footer);
+  width: 100%;
+}
+header {
+  height: 175px;
+}
+footer {
+  height: 80px;
+}
+footer a {
+  padding: 0 15px;
+  color: var(--text-colour);
+}
+.logo {
+  height: 150px;
+  display: block;
+  margin: 0 auto;
+}
+.date {
+  margin: 0;
+  padding: 0 15px 20px;
+  text-align: right;
+  font-size: 20px;
+}

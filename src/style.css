@@ -70,6 +70,11 @@ h2 {
   color: var(--small-header-colour);
   font-weight: bold;
 }
+.lizzie-letter {
+  color: var(--small-header-colour);
+  font-style: italic;
+  font-weight: bold;
+}
 .socialmedia {
   color: var(--third-colour);
   font-weight: bold;

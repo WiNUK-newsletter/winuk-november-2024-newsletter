@@ -3,6 +3,9 @@
   --small-header-colour: #783a77;
   --third-colour: #008080;
   --text-colour: #fdfafa;
+  --blog-one: #945393;
+  --blog-two: #4da6a6;
+  --blog-three: #d56daa;
 }
 .container {
   max-width: 960px;
@@ -89,6 +92,33 @@ h2 {
 .socialmedia img {
   height: 300px;
 }
+.blog,
+.review {
+  background-color: var(--blog-one);
+}
+.reality {
+  background-color: var(--blog-two);
+}
+.research {
+  background-color: var(--blog-three);
+}
+.blog,
+.contact-blog {
+  text-align: center;
+}
+.contact-blog,
+.contact-blog a {
+  color: var(--small-header-colour);
+}
+
+a {
+  display: inline-block;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: var(--text-colour);
+}
+
 @media (max-width: 570px) {
   .container {
     letter-spacing: normal;

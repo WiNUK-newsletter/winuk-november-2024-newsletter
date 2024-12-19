@@ -75,6 +75,10 @@ h2 {
   font-style: italic;
   font-weight: bold;
 }
+.inaugural,
+.group {
+  max-block-size: 300px;
+}
 .socialmedia {
   color: var(--third-colour);
   font-weight: bold;

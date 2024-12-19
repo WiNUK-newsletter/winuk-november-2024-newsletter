@@ -60,7 +60,8 @@ footer a {
   color: #6a5ca2;
   padding: 0;
 }
-h2 {
+h2,
+h3 {
   text-align: center;
 }
 .hello {
@@ -101,6 +102,13 @@ h2 {
 .socialmedia img {
   height: 300px;
 }
+.awards {
+  background-color: #64559c;
+}
+.winners ul {
+  list-style: none;
+  padding: 0;
+}
 .blog,
 .review {
   background-color: var(--blog-one);
@@ -119,7 +127,23 @@ h2 {
 .contact-blog a {
   color: var(--small-header-colour);
 }
-
+.month-in-review {
+  background-color: #f7f2f5;
+  color: #613c61;
+  text-align: center;
+}
+.month-in-review h3 {
+  color: var(--third-colour);
+}
+.first {
+  background-color: #efc4dd;
+}
+.second {
+  background-color: #7cb4d2;
+}
+.third {
+  background-color: #db86b8;
+}
 a {
   display: inline-block;
   max-width: 100%;

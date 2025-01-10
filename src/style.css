@@ -57,8 +57,12 @@ footer a {
 }
 .month {
   font-size: 75px;
-  color: #6a5ca2;
+  color: #7c6abe;
   padding: 0;
+}
+.curation {
+  color: var(--third-colour);
+  font-size: 20px;
 }
 h2,
 h3,
@@ -66,14 +70,29 @@ h4 {
   text-align: center;
 }
 .hello {
-  color: var(--header-footer);
+  color: var(--text-colour);
+  font-size: 30px;
 }
-.message {
-  color: var(--small-header-colour);
+.newsletter-codirector {
+  height: 170px;
+
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+}
+.co-director {
+  text-align: center;
   font-weight: bold;
 }
+.message {
+  color: var(--text-colour);
+  font-weight: bold;
+}
+.intro-message {
+  background-color: #8e82b8;
+}
 .lizzie-letter {
-  color: var(--small-header-colour);
+  color: var(--text-colour);
   font-style: italic;
   font-weight: bold;
 }
@@ -104,11 +123,16 @@ h4 {
   height: 300px;
 }
 .awards {
-  background-color: #64559c;
+  background-color: #4f447b;
 }
 .winners ul {
   list-style: none;
   padding: 0;
+}
+.winners1 {
+  height: 400px;
+  display: block;
+  margin: 0 auto;
 }
 .volunteer-winner {
   width: 600px;
@@ -116,7 +140,7 @@ h4 {
   margin: 5px auto;
 }
 .socials {
-  background-color: #9d629d;
+  background-color: #419595;
 }
 .mh {
   height: 350px;
@@ -150,19 +174,19 @@ h4 {
   background-color: #efc4dd;
 }
 .second {
-  background-color: #7cb4d2;
+  background-color: #c4cfec;
 }
 .third {
-  background-color: #c29cc0;
+  background-color: #ceb0cd;
 }
 .third a {
   color: #613c61;
 }
 .one {
-  background-color: #db86b8;
+  background-color: #89bfc1;
 }
 .two {
-  background-color: #db86b8;
+  background-color: #aacbdf;
 }
 a {
   display: inline-block;
